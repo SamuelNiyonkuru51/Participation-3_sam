@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http//www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>LIST</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFA07A;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFA07A;
+}
+
+.topnav a {
+  float: left;
+  color: #808000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}
+</style>
+<body>
+<div class="topnav">
+
+    <a th:href="@{/home}">Home</a>
+    <a th:href="@{/aboutus}">About us</a>
+    <a th:href="@{/list}">List</a>
+</div>
+<div style="padding-left:16px">
+    <h3>Welcome, this is participation 3</h3>
+    <p></p>
+</div>
+<table BORDER=”4″ cellspacing="10">
+    <tr>
+        <strong><td>ID</td></strong>
+        <strong><td>Names</td></strong>
+        <strong><td>Lesson</td></strong>
+        <strong><th>Marks</th></strong>
+    </tr>
+    <tr>
+        <td>001</td>
+        <td>Cyusa Brian</td>
+        <td>Math</td>
+        <th>67%</th>
+    </tr>
+    <tr>
+        <td>002</td>
+        <td>Mugabo Regis</td>
+        <td>Marketing</td>
+        <th>89%</th>
+    </tr>
+    <tr>
+        <td>003</td>
+        <td>Neza Lydia</td>
+        <td>Science</td>
+        <th>91%</th>
+    </tr>
+    <tr>
+        <td>004</td>
+        <td>Nziza Landry</td>
+        <td>Economy</td>
+        <th>43%</th>
+    </tr>
+    <tr>
+        <td>005</td>
+        <td>Mugaba Kessy</td>
+        <td>Physics</td>
+        <th>55%</th>
+    </tr>
+</table>
+
+</body>
+</html>
